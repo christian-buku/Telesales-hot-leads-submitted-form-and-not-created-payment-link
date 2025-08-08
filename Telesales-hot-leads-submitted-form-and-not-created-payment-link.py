@@ -166,8 +166,8 @@ with st.sidebar:
         template_id = st.text_input("Template ID", value="")
         channel_id = st.text_input("Channel Integration ID", value="")
 
-    st.divider()
-    st.header("Media (optional)")
+    # st.divider()
+    # st.header("Media (optional)")
     # image_url = st.text_input("Image URL (optional)")
     image_url = "https://raw.githubusercontent.com/christian-buku/Telesales-hot-leads-submitted-form-and-not-created-payment-link/refs/heads/main/banner.jpg"
     # image_filename = st.text_input("Image filename", value="banner.jpg")
